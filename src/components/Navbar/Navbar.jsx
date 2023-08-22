@@ -1,16 +1,16 @@
-
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
+        <nav>
             <ul className="flex text-center justify-between bg-lime-300 p-2 text-2xl mt-4">
-                <li>Home</li>
-                <li>Politics</li>
-                <li>Sports</li>
-                <li>Entertainment</li>
-                <li>About Us</li>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/politics'>Politics</Link></li>
+                <li><Link to='/sports'>Sports</Link></li>
+                <li><Link to='/entertainment'>Entertainment</Link></li>
+                <li><Link to='/aboutus'>About Us</Link></li>
             </ul>
-        </div>
+        </nav>
     );
 };
 
