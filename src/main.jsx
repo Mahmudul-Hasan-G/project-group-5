@@ -9,6 +9,9 @@ import {
 } from "react-router-dom";
 import App from './App';
 import PoliNews from './components/PoliNews/PoliNews';
+import SportsNews from './components/SportsNews/SportsNews';
+import EntertainmentNews from './components/EntertainmentNews/EntertainmentNews';
+import AboutUs from './components/AboutUs/AboutUs';
 
 const router = createBrowserRouter([
   {
@@ -21,15 +24,15 @@ const router = createBrowserRouter([
   },
   {
     path:"/sports",
-    element:
+    element:<SportsNews />,
   },
   {
     path: "/entertainment",
-    element:
+    element:<EntertainmentNews />,
   },
   {
     path: "/aboutus",
-    element:
+    element:<AboutUs />,
   }
 ]);
 
