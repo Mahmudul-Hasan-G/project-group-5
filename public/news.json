@@ -1,0 +1,40 @@
+[
+    {
+        "id":"1",
+         "category": "political",
+         "author":"MARCEL DANESI",
+         "published_date":"07/30/2023 07:00 AM EDT",
+         "heading":"What Donald Trump, Vladimir Putin and Viktor Orbán Understand About Your Brain",
+         "img":"https://i.ibb.co/42bXrcY/p1.webp",
+         "description": "Why do people believe some politicians lies even when they have been proven false? And why do so many of the same people peddle conspiracy theories?Lying and conspiratorial thinking might seem to be two different problems, but they turn out to be related. I study political rhetoric and have tried to understand how populist politicians use language to develop a cult-like following, divide nations, create culture wars and instill hatred. This pattern goes back to antiquity and is seen today in leaders including former President Donald Trump, Hungarys Viktor Orbán and Russian Vladimir Putin. These leaders are capable of using words and speeches to whip people into such an emotional tempest that they will do things like march on the seat of Congress or invade a neighboring country.What makes this kind of speech worrying is that it is not just emotions like aggression they can manipulate; politicians can also use rhetoric to influence the public’s thoughts and beliefs, and spread lies and conspiracy theories. Those lies and conspiracy theories are stubbornly resistant to countervailing facts and can sow divisions that destabilize their own societies."
+    },
+    {
+        "id":"2",
+         "category": "political",
+         "author":"Observer Online Desk",
+         "published_date":" Monday, 21 August, 2023 at 8:31 PM ",
+         "heading":"South Koreans rally against joint military drill with US",
+         "img":"https://i.ibb.co/VWj1FVy/p2.jpg",
+         "description": "A group of South Korean peace activists on Monday held a rally against the joint military drill with the United States that kicked off earlier in the day, Xinhua reports.The activists from the Solidarity for Peace and Reunification of Korea (SPARK) gathered near the presidential office in central Seoul, where the defense ministry is also headquartered, to call for peace on the Korean Peninsula.The protesters shouted slogan of 'Stop war exercise' and lifted the placards of 'Stop South Korea-U.S. war exercise' and 'No to South Korea-Japan alliance.The Ulchi Freedom Shield (UFS) exercise between South Korea and the U.S., a summertime joint military exercise involving large-scale field maneuvers, was scheduled to continue until Aug. 31, according to South Korea's Joint Chiefs of Staff (JCS).The annually-held military drill this year will reportedly involve about 30 field maneuvers, compared to 13 conducted last year.The SPARK said in a statement that the UFS exercise is a war exercise, which can turn into a nuclear war at any time, as it is the large-scale preemptive strike drill involving nuclear and advanced conventional forces from the two allies.The civic group urged Seoul and Washington to immediately stop and abolish the UFS exercise, which can intensify the nuclear confrontation on the peninsula.It added that the efforts for the trilateral military cooperation among the U.S., Japan and South Korea should be stopped as it can escalate regional tensions."
+    },
+
+    {
+        "id":"3",
+         "category": "political",
+         "author":"Observer Online Desk",
+         "published_date":" Sunday, 20 August, 2023 at 9:34 PM  ",
+         "heading":"Canada wildfires intensify, doubling evacuations to over 35,000",
+         "img":"https://i.ibb.co/NZd0tqJ/p3.jpg",
+         "description": "Forest fires in Canada's western province of British Columbia have intensified, with the number of people under evacuation orders doubling from a day earlier, as authorities warned of difficult days ahead, reports Reuters.The province declared a state of emergency on Friday to access temporary authoritative powers to tackle fire-related risks, as out-of-control fires ripped through interior British Columbia, partially shutting some sections of a key highway between the Pacific coast and the rest of western Canada, and destroying many properties.The current situation is grim, Premier Daniel Eby told reporters on Saturday, saying some 35,000 people were under an evacuation order, and a further 30,000 were under an evacuation alert.Eby said the province is in dire need of shelter for evacuees and firefighters and ordered a ban on non-essential travel to make more temporary accommodation available. Officials also urged residents to avoid operating drones in the fire zone, saying it could impede firefighting efforts.The fire is centered around Kelowna, a city some 300 kilometres (180 miles) east of Vancouver, with a population of about 150,000.Forest fires are not uncommon in Canada, but the spread of blazes and disruption underscore the severity of its worst wildfire season yet.About 140,000 square km (54,054 square miles) of land, roughly the size of New York state, have already burned, and goverB.C. had experienced strong winds and dry lightning in the past few days due to a cold mass of air interacting with hot air built-up in the sultry summer. That intensified existing forest fires and ignited new ones.We are still in some critically dry conditions, and are still expecting difficult days ahead, said Jerrad Schroeder, deputy fire centre manager at the Kamloops Fire Centre.Prime Minister Justin Trudeau convened a meeting of key ministers and senior officials on Saturday to discuss wildfires. The Incident Response Group, which met for the second time this week, agreed to make additional resources available to both British Columbia and the Northwest Territories (NWT).A wildfire burning out of control in Yellowknife, the capital city of NWT, had triggered evacuations of almost all of its 20,000 residents this week. One patient died when he was being transferred out of Yellowknife, an NWT minister said on Saturday.Currently, the fire is not expected to reach city limits by the end of the weekend, officials said, with some rain and cooler temperatures helping to slow its progress."
+    },
+
+    {
+        "id":"4",
+         "category": "political",
+         "author":"Observer Online Desk",
+         "published_date":" SMonday, 21 August, 2023 at 5:15 PM  ",
+         "heading":"Danish F-16s for Ukraine an 'escalation': Russian envoy",
+         "img":"https://i.ibb.co/N1cd36c/p4.jpg",
+         "description": "Denmark's decision to supply Ukraine with American F-16 fighter jets to fend off Russia's invasion represents an 'escalation' of the conflict, Russia's ambassador to Denmark warned Monday, AFP reports.Denmark and the Netherlands on Sunday announced they would provide the advanced jets to strengthen Kyiv's Soviet-era air force, as it pursues a grinding counteroffensive against Russian forces in the east.During a visit by Ukrainian President Volodomyr Zelensky to Denmark on Sunday, Danish Prime Minister Mette Frederiksen said her country would deliver 19 of the jets, six of them by the end of this year, eight next year and five in 2025.'The fact that Denmark has now decided to donate 19 F-16 aircraft to Ukraine leads to an escalation of the conflict,' Russian ambassador to Denmark Vladimir Barbin said in a statement to AFP.Russian Foreign Minister Sergei Lavrov said in July that Moscow would consider the F-16s a 'nuclear' threat because of their capacity to carry atomic weapons.'By hiding behind a premise that Ukraine itself must determine the conditions for peace, Denmark seeks with its deeds and words to leave Ukraine no choice but to continue the military confrontation with Russia,' Barbin said.'Such a position pushes Ukraine into the abyss and condemns its people to new victims.'Washington had announced its approval of the F-16 transfers on Friday."
+    }
+]
