@@ -1,6 +1,7 @@
 
 import './App.css'
 import AllNews from './components/AllNews/AllNews'
+import Footer from './components/Footer/Footer'
 import Heading from './components/Heading/Heading'
 import LeftAdds from './components/LeftAdds/LeftAdds'
 import Navbar from './components/Navbar/Navbar'
@@ -26,6 +27,7 @@ function App() {
         <RightAdds />
       </div>
     </div>
+    <Footer />
    </div>
   )
 }
