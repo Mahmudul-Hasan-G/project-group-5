@@ -17,13 +17,13 @@ function App() {
     <Heading />
     <Navbar />
     <div className='grid grid-cols-8 gap-4 mt-16'>
-      <div className='col-span-2'>
+      <div className='col-span-1'>
       <LeftAdds />
       </div>
-      <div className='col-span-4'>
+      <div className='col-span-6'>
         <AllNews />
       </div>
-      <div className='col-span-2'>
+      <div className='col-span-1'>
         <RightAdds />
       </div>
     </div>
