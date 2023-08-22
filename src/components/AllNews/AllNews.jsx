@@ -12,7 +12,7 @@ const AllNews = () => {
         .then(data => setNewses(data))
     }, [])
     return (
-        <div>
+        <div className="grid grid-cols-3 gap-2">
             {
                 newses.map(news => <News 
                 key={news.id}
