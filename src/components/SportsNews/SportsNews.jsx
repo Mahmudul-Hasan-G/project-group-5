@@ -17,12 +17,14 @@ const SportsNews = () => {
         <div>
             <Heading />
             <Navbar />
+            <div className="grid grid-cols-3 gap-2"> 
             {
                 sportsnews.map(news => <News 
                 key={news.id}
                 news={news}
                 />)
             }
+</div>
         </div>
     );
 };

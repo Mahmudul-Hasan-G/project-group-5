@@ -19,12 +19,14 @@ const PoliNews = () => {
         <div>
             <Heading />
             <Navbar />
+            <div className="grid grid-cols-3 gap-2">
             {
                 polinews.map(news => <News 
                 key={news.id}
                 news={news}
                 />)
             }
+            </div>
         </div>
     );
 };
