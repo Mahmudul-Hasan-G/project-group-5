@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Heading from "../Heading/Heading";
 import Navbar from "../Navbar/Navbar";
 import News from "../News/News";
+import useTitle from "../../Hooks/useTitel";
 
 
 const SportsNews = () => {
@@ -12,6 +13,8 @@ const SportsNews = () => {
         .then(res =>res.json())
         .then(data => setSportsNews(data))
     },[])
+
+    useTitle("Sports");
     return (
 
         <div>

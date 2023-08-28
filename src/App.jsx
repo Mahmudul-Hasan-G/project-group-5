@@ -1,5 +1,6 @@
 
 import './App.css'
+import useTitle from './Hooks/useTitel'
 import AllNews from './components/AllNews/AllNews'
 import Footer from './components/Footer/Footer'
 import Heading from './components/Heading/Heading'
@@ -10,7 +11,7 @@ import RightAdds from './components/RightAdds/RightAdds'
 
 function App() {
 
-
+useTitle("Home");
 
   return (
    <div className='mx-4'>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import News from "../News/News";
 import Heading from "../Heading/Heading";
 import Navbar from "../Navbar/Navbar";
+import useTitle from "../../Hooks/useTitel";
 
 
 const PoliNews = () => {
@@ -13,7 +14,7 @@ const PoliNews = () => {
         .then(data => setPolinews(data))
     }, [])
 
-    
+    useTitle("Politics");
 
     return (
         <div>

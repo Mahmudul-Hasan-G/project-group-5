@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Heading from "../Heading/Heading";
 import Navbar from "../Navbar/Navbar";
 import News from "../News/News";
+import useTitle from "../../Hooks/useTitel";
 
 const EntertainmentNews = () => {
     const [enews, setEnews] = useState([]);
@@ -11,6 +12,8 @@ const EntertainmentNews = () => {
         .then(res => res.json())
         .then(data => setEnews(data))
     }, [])
+
+    useTitle("Entertainment");
     return (
         <div>
             <Heading />
