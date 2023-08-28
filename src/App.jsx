@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-   <div>
+   <div className='mx-4'>
     <Heading />
     <Navbar />
     <div className='grid grid-cols-8 gap-4 mt-2'>
