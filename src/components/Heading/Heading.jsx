@@ -23,10 +23,10 @@ const Heading = () => {
         <div>
           <div className='flex'>
           <div>
-          <img className ='h-52 w-52 rounded-full' src="/public/images/1.png" alt="" />
+          <img className ='rounded-full' src="/public/images/1.png" alt="" />
           </div>
-            <div className='ml-96'>
-            <h1 className="mt-6 text-center text-9xl font-extrabold font-mono text-lime-600 underline">THE H.A.D.</h1>
+            <div>
+            <h1 className="mt-6 text-center text-9xl font-extrabold font-mono text-lime-600 underline">THE GLOBAL</h1>
             <p className="mt-2 text-center text-4xl text-rose-800">Always With The Truth</p>
             <p className="mt-2 text-center text-3xl">{formatDate(currentDateTime)} 
 <span className='ml-5 bg-purple-500'>{formatTime(currentDateTime)}</span></p>
