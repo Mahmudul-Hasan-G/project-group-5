@@ -1,6 +1,6 @@
 
 import './App.css'
-import useTitle from './Hooks/useTitel'
+import useTitle from './Hooks/useTitle'
 import AllNews from './components/AllNews/AllNews'
 import Footer from './components/Footer/Footer'
 import Heading from './components/Heading/Heading'

@@ -1,24 +1,35 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import News from "../News/News";
+import Marquee from 'react-fast-marquee';
+
+import Bnews from "../Bnews/Bnews";
 
 
 const AllNews = () => {
     const [newses, setNewses] = useState([]);
 
     useEffect(() => {
-        fetch('news.json')
-        .then(res => res.json())
-        .then(data => setNewses(data))
+        fetch('https://newsdata.io/api/1/news?apikey=pub_2841010e99eb1d96e35f7771fee712329cf4f&q=today&category=world')
+            .then(res => res.json())
+            .then(data => {
+                setNewses(data.results)
+                console.log(data.results);
+            })
     }, [])
     return (
-        <div className="grid grid-cols-3 gap-2">
-            {
-                newses.map(news => <News 
-                key={news.id}
-                news={news}
-                />)
-            }
+        <div>
+            <Marquee speed={80} direction="right" gradient={true} gradientColor={[239, 23, 23]}>
+                <h1 className="text-6xl mb-4 p-2">Breaking News</h1>
+            </Marquee>
+            <div className="grid grid-cols-2 gap-2">
+                {
+                    newses.map(news => <Bnews
+                        key={news.article_id}
+                        news={news}
+                    />)
+                }
+            </div>
+
         </div>
     );
 };

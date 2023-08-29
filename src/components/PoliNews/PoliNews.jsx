@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import News from "../News/News";
 import Heading from "../Heading/Heading";
 import Navbar from "../Navbar/Navbar";
-import useTitle from "../../Hooks/useTitel";
+import useTitle from "../../Hooks/useTitle";
 
 
 const PoliNews = () => {
@@ -10,8 +10,8 @@ const PoliNews = () => {
 
     useEffect(() => {
         fetch('news.json')
-        .then(res => res.json())
-        .then(data => setPolinews(data))
+            .then(res => res.json())
+            .then(data => setPolinews(data))
     }, [])
 
     useTitle("Politics");
@@ -21,12 +21,12 @@ const PoliNews = () => {
             <Heading />
             <Navbar />
             <div className="grid grid-cols-3 gap-2">
-            {
-                polinews.map(news => <News 
-                key={news.id}
-                news={news}
-                />)
-            }
+                {
+                    polinews.map(news => <News
+                        key={news.id}
+                        news={news}
+                    />)
+                }
             </div>
         </div>
     );
