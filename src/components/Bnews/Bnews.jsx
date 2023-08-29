@@ -4,11 +4,11 @@ import { useNewsContext } from "../NewsContext/NewsContext";
 
 const Bnews = ({ news }) => {
 
-    const { article_id, category, title, image_url, description, language, pubDate } = news;
+    const { article_id, category, title, image_url, content, language, pubDate } = news;
     console.log(news);
 
 
-    let imageUrl = image_url || '../../../public/images/bn.jpg';
+    let imageUrl = image_url || '/images/bn.jpg';
 
     const { setSelectedNews } = useNewsContext();
     const navigate = useNavigate();
@@ -40,11 +40,11 @@ const Bnews = ({ news }) => {
                     <h2 className="card-title text-4xl">{title}</h2>
 
                     <p>
-                        {description ? (
-                            description.length < 200 ? (
-                                <>{description}</>
+                        {content ? (
+                            content.length < 200 ? (
+                                <>{content}</>
                             ) : (
-                                <>{description.slice(0, 200)}...</>
+                                <>{content.slice(0, 200)}...</>
                             )
                         ) : (
                             "No description available"

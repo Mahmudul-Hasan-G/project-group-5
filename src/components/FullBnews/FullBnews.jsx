@@ -29,7 +29,7 @@ const FullBnews = () => {
                             <p>{selectedNews.pubDate}</p>
                             <p>{selectedNews.country}</p>
                         </div>
-                        <p className="text-4xl my-6">{selectedNews.description}</p>
+                        <p className="text-4xl my-6">{selectedNews.content}</p>
 
                     </div>
                 )}

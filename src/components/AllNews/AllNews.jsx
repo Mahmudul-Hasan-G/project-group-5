@@ -9,7 +9,7 @@ const AllNews = () => {
     const [newses, setNewses] = useState([]);
 
     useEffect(() => {
-        fetch('https://newsdata.io/api/1/news?apikey=pub_2841010e99eb1d96e35f7771fee712329cf4f&q=today&category=world')
+        fetch('https://newsdata.io/api/1/news?apikey=pub_2841010e99eb1d96e35f7771fee712329cf4f&q=pegasus&language=en')
             .then(res => res.json())
             .then(data => {
                 setNewses(data.results)
