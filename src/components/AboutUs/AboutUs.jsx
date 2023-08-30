@@ -1,3 +1,4 @@
+import Hasan from "../Hasan/Hasan";
 import Heading from "../Heading/Heading";
 import Navbar from "../Navbar/Navbar";
 
@@ -7,6 +8,7 @@ const AboutUs = () => {
         <div>
             <Heading />
             <Navbar />
+            <Hasan />
         </div>
     );
 };
