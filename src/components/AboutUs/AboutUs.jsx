@@ -1,3 +1,4 @@
+import Anu from "../Anu/Anu";
 import Diana from "../Diana/Diana";
 import Hasan from "../Hasan/Hasan";
 import Heading from "../Heading/Heading";
@@ -11,6 +12,7 @@ const AboutUs = () => {
             <Navbar />
             <Hasan />
             <Diana />
+            <Anu />
         </div>
     );
 };
